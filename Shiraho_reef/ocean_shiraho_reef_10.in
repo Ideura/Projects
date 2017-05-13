@@ -326,7 +326,7 @@ LtracerSponge == F F                            ! temperature, salinity, inert
         RDRG == 3.0d-04                    ! m/s
        RDRG2 == 0.025d0                    ! nondimensional
 !         Zob == 0.02d0 !!!  0.15d0  !!! 0.015d0        ! m  !!! 0.03d0: Falter et al. 2013, 0.15d: Reidenbach et al. 2006
-         Zob == 0.05d0 !!!  0.15d0  !!! 0.015d0        ! m  !!! 0.03d0: Falter et al. 2013, 0.15d: Reidenbach et al. 2006
+         Zob == 0.03d0 !!!  0.15d0  !!! 0.015d0        ! m  !!! 0.03d0: Falter et al. 2013, 0.15d: Reidenbach et al. 2006
          Zos == 0.5d0                      ! m
 
 ! Height (m) of atmospheric measurements for Bulk fluxes parameterization.
