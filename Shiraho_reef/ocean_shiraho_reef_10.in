@@ -763,7 +763,7 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 ! Input NetCDF file names, [1:Ngrids].
 
 !     GRDNAME == D:/ROMS/Data/Shiraho_reef/shiraho_reef_grid15.nc   ! Old bathymetry, with new coverage
-     GRDNAME == D:/ROMS/Data/Shiraho_reef/shiraho_reef_grid16.nc   ! New bathymetry, with new coverage
+     GRDNAME == D:/ROMS/Data/Shiraho_reef/shiraho_reef_grid16.2.nc   ! New bathymetry, with new coverage
      ININAME == ocean_ini.nc
      ITLNAME == ocean_itl.nc
      IRPNAME == ocean_irp.nc
@@ -815,8 +815,8 @@ Dout(iTvdif) == T T     ! temp_vdiff, ...    vertical diffusion
 ! Output NetCDF file names, [1:Ngrids].
 
      GSTNAME == ocean_gst.nc
-     RSTNAME == D:/ROMS/output/Shiraho_reef/test/ocean_rst_10.nc
-     HISNAME == D:/ROMS/output/Shiraho_reef/test/ocean_his_10.nc
+     RSTNAME == D:/ROMS/output/Shiraho_reef/test/ocean_rst_10_2.nc
+     HISNAME == D:/ROMS/output/Shiraho_reef/test/ocean_his_10_2.nc
      TLMNAME == ocean_tlm.nc
      TLFNAME == ocean_tlf.nc
      ADJNAME == ocean_adj.nc
